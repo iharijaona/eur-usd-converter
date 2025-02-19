@@ -1,0 +1,3 @@
+- Intégration de différentes conversions de devises
+- Utilisation d'une API pour récupérer les taux de conversion
+- Ajout d'un tableau de bord permettant d'analyser l'évolution des taux de change entre deux devises (tableaux, graphiques)
