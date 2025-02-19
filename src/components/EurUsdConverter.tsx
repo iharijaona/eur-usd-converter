@@ -6,15 +6,11 @@ import { useEurUsdExchangeRate } from "@/services/exchangeRate";
 import EurUsdConverterForm from "@/components/EurUsdConverterForm";
 import { EUR_CURRENCY, FIXED_RATE_VARIATION_THRESHOLD, USD_CURRENCY } from "@/config";
 
-interface IConversionHistory {
-    
-}
 
 export const EurUsdConverter: FC = () => {
   const eurToUsdExchangeRate = useEurUsdExchangeRate();
   const [customFixedRate, setCustomFixedRate] = useState<number | undefined>();
   const [isReverseConversion, setReverseConversion] = useState<boolean>(false);
-  const [conversionHistories, setConversionHistories] = useState<IConversionHistory[]>([])
 
   let currentExhangeRate = eurToUsdExchangeRate;
   if (customFixedRate !== undefined) {

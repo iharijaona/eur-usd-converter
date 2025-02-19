@@ -1,5 +1,5 @@
 "use client";
-import { FC, useState, useEffect, useMemo } from "react";
+import { FC, useState, useEffect } from "react";
 import { ArrowsRightLeftIcon } from '@heroicons/react/24/solid';
 import { MAX_DECIMAL_DIGITS } from "@/config";
 
