@@ -24,6 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <title>Convertisseur euro / dollar</title>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
